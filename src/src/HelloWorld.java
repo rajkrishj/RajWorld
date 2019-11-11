@@ -7,12 +7,12 @@ public class HelloWorld {
 	}
 	
 	public String method1(){
-		return "hi";
+		return "hi Test";
 		
 	}
 	
 	public String method2(){
-		return "hi";
+		return "hi Test";
 		
 	}
 	}
