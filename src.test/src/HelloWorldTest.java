@@ -11,9 +11,15 @@ public class HelloWorldTest extends TestCase {
 	}
 	
 	@Test
-	public void testMethod1() {
+	public void testCase1() {
 		HelloWorld world = new HelloWorld();
-		assertEquals("TestPassed","hi",world.method1());
+		assertEquals("Test case 1 Passed","Hello Capco", world.sayHello());
+	}
+	
+	@Test
+	public void testCase2() {
+		HelloWorld world = new HelloWorld();
+		assertEquals("Test case 2 Passed","HELLO CAPCO", world.sayHello().toUpperCase());
 	}
 
 }

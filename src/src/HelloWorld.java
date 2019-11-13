@@ -3,11 +3,11 @@ package src;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		new HelloWorld().method1();
+		new HelloWorld().sayHello();
 	}
 	
-	public String method1(){
-		return "hi";
+	public String sayHello(){
+		return "Hello Capco";
 		
 	}	
 	
