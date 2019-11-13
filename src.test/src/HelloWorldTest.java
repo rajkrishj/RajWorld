@@ -19,7 +19,7 @@ public class HelloWorldTest extends TestCase {
 	@Test
 	public void testCase2() {
 		HelloWorld world = new HelloWorld();
-		assertEquals("Test case 2 Passed","HELLO CAPCO", world.sayHello().toUpperCase());
+		assertEquals("Test case 2 Passed","HELLO CAPCO1", world.sayHello().toUpperCase());
 	}
 
 }
